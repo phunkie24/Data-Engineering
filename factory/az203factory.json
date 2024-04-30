@@ -1,0 +1,9 @@
+{
+	"name": "az203factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "08ec3cb3-3485-4b6e-be51-574cc9ee9a4f",
+		"tenantId": "215b7ce2-5263-4593-a622-da030405d151"
+	}
+}
