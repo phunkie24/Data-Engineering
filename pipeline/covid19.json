@@ -116,7 +116,9 @@
 						"coreCount": 8,
 						"computeType": "General"
 					},
-					"traceLevel": "Fine"
+					"traceLevel": "Fine",
+					"runConcurrently": true,
+					"continueOnError": true
 				}
 			}
 		],
