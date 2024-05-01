@@ -52,7 +52,7 @@
 				]
 			},
 			{
-				"name": "Notebook1",
+				"name": "covid19nb",
 				"type": "DatabricksNotebook",
 				"dependsOn": [
 					{
@@ -69,7 +69,11 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
