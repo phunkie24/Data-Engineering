@@ -1,0 +1,7 @@
+{
+	"name": "AzureDatabricks1",
+	"properties": {
+		"type": "AzureDatabricks",
+		"annotations": []
+	}
+}
