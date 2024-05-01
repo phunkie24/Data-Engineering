@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "covid19copy",
+				"name": "Copy covid19",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -40,7 +40,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "Json2",
 						"type": "DatasetReference"
 					}
 				],
