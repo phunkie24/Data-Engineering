@@ -97,7 +97,13 @@
 				"typeProperties": {
 					"dataflow": {
 						"referenceName": "dataflow1",
-						"type": "DataFlowReference"
+						"type": "DataFlowReference",
+						"parameters": {
+							"parameter1": {
+								"value": "'@{activity('Copy covid19').outputactivity('Copy covid19').output}'",
+								"type": "Expression"
+							}
+						}
 					},
 					"staging": {
 						"linkedService": {
