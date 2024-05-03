@@ -16,6 +16,9 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/funke.yusuff@gmail.com/Process Data"
+				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks2",
 					"type": "LinkedServiceReference"
