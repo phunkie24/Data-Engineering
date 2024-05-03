@@ -5,6 +5,7 @@
 		"activities": [
 			{
 				"name": "Process Data",
+				"description": "Process Data with Azure Databricks Example",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -14,7 +15,11 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks2",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
