@@ -2,6 +2,21 @@
 	"name": "Process Data with Databricks",
 	"properties": {
 		"description": "dapi49935786caed84077e173644a487141f-3",
+		"activities": [
+			{
+				"name": "Process Data",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": []
+			}
+		],
 		"annotations": []
 	}
 }
